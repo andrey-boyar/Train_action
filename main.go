@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("Hello, World!")
+	fmt.Println(hello())
+}
+
+func hello() string {
+	return "Hello Go"
+	// эту строку исправили Go теперь не go
 }
