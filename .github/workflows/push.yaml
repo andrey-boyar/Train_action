@@ -38,7 +38,7 @@ jobs:
         with:
           images: 1andreiboyar1/train_action:v1.0.0
 
-      - name: Build and push Docker Inage
+      - name: Build and push Docker Image
         uses: docker/build-push-action@v5
         with:
           context: .
